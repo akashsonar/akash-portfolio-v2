@@ -1,0 +1,35 @@
+.p {
+    width: 30%;
+    height: 40vh;
+    border: 2px solid rgb(243, 242, 242);
+    margin: 20px 10px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+
+    .p-browser {
+        height: 20px;
+        background-color: rgb(243, 242, 242);
+        display: flex;
+        align-items: center;
+
+        .p-circle {
+            border-radius: 50%;
+            background-color: rgb(94, 94, 94);
+            width: 6px;
+            height: 6px;
+            margin: 3px;
+        }
+    }
+
+    .p-img {
+        width: 100%;
+        // transition: all 10s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .p{
+        width: 42%;
+        height: 20vh;
+    }
+}
